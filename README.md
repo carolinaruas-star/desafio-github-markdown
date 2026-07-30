@@ -101,27 +101,33 @@ Escape de Caracteres
 
 Utilize \ para exibir caracteres reservados do Markdown.
 
+```md
 \*\*Texto comum\*\*
-
+```
 HTML Inline
 Quando necessário, é possível utilizar HTML.
 
+```md
 Primeira linha<br>
 Segunda linha
+```
 
 🚀 Recursos do GitHub Flavored Markdown (GFM)
 
 Referenciar Issues e Pull Requests
+```md
 #15
 usuario/repositorio#15
-
+```
 Referenciar Commits
+```md
 8304e9c
 usuario/repositorio@8304e9c
-
+```
 Mencionar Usuários
+```md
 @usuario
-
+```
 Lista de Tarefas
 - [x] Concluído
 - [ ] Pendente
@@ -139,16 +145,18 @@ Comandos úteis disponíveis em Issues, Pull Requests e Discussões:
 | `/tasklist`      | Criar lista de tarefas        |
 | `/template`      | Inserir modelo de Issue ou PR |
 
+
 ✅ Resumo
-Markdown é uma linguagem simples para formatação de documentos.
-Muito utilizada em projetos do GitHub para documentação.
-Permite criar títulos, listas, tabelas, links, imagens, citações e blocos de código.
-O GitHub Flavored Markdown (GFM) adiciona recursos como:
-Referências a Issues e Pull Requests;
-Referências a commits;
-Menções de usuários;
-Listas de tarefas;
-Slash Commands.
+
+- Markdown é uma linguagem simples para formatação de documentos.
+- Muito utilizada em projetos do GitHub para documentação.
+- Permite criar títulos, listas, tabelas, links, imagens, citações e blocos de código.
+- O GitHub Flavored Markdown (GFM) adiciona recursos como:
+- Referências a Issues e Pull Requests;
+   - Referências a commits;
+   - Menções de usuários;
+   -  Listas de tarefas;
+   -  Slash Commands.
 
 
 
