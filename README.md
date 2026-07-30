@@ -85,51 +85,60 @@ git status
 git add .
 git commit -m "Primeiro commit"
 ```
-
+````
 Linguagens mais comuns para destaque de sintaxe:
 
-bash
-python
-javascript
-java
-csharp
-sql
-html
-css
+- bash
+- python
+- javascript
+- java
+- csharp
+- sql
+- html
+- css
+
 Escape de Caracteres
 
 Utilize \ para exibir caracteres reservados do Markdown.
 
 \*\*Texto comum\*\*
-HTML Inline
 
+HTML Inline
 Quando necessário, é possível utilizar HTML.
 
 Primeira linha<br>
 Segunda linha
+
 🚀 Recursos do GitHub Flavored Markdown (GFM)
+
 Referenciar Issues e Pull Requests
 #15
 usuario/repositorio#15
+
 Referenciar Commits
 8304e9c
 usuario/repositorio@8304e9c
+
 Mencionar Usuários
 @usuario
+
 Lista de Tarefas
 - [x] Concluído
 - [ ] Pendente
+      
 ⚡ Slash Commands
 
 Comandos úteis disponíveis em Issues, Pull Requests e Discussões:
 
-Comando	Função
-/code	Inserir bloco de código
-/details	Criar seção expansível
-/saved-replies	Inserir resposta salva
-/table	Gerar tabela
-/tasklist	Criar lista de tarefas
-/template	Inserir modelo de Issue ou PR
+| Comando          | Função                        |
+| ---------------- | ----------------------------- |
+| `/code`          | Inserir bloco de código       |
+| `/details`       | Criar seção expansível        |
+| `/saved-replies` | Inserir resposta salva        |
+| `/table`         | Gerar tabela                  |
+| `/tasklist`      | Criar lista de tarefas        |
+| `/template`      | Inserir modelo de Issue ou PR |
+
 ✅ Resumo
 Markdown é uma linguagem simples para formatação de documentos.
 Muito utilizada em projetos do GitHub para documentação.
@@ -140,3 +149,6 @@ Referências a commits;
 Menções de usuários;
 Listas de tarefas;
 Slash Commands.
+
+
+
